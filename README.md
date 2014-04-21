@@ -1,0 +1,3 @@
+#slimatra
+
+slim sinatra boilerplate

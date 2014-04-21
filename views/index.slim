@@ -1,0 +1,28 @@
+doctype html
+/ruby:
+  Slim::Engine.set_default_options :shortcut => {'@' => {:attr => 'type'}}
+html
+  head
+    title BoilerPlate
+
+    meta charset='utf-8' http-equiv='X-UA-Compatible' content="IE=edge"
+    meta name='viewport' content='width=device-width, initial-scale=1.0'
+    meta name='description' content='BoilerPlate'
+    meta name='author' content='Charlie Johnson'
+
+    link rel='shortcut icon' href='/vendor/docs-assets/ico/bowser.png'
+
+    / Bootstrap core CSS
+    link rel='stylesheet' href='/vendor/bootstrap/css/bootstrap.min.css'
+
+    / Custom styles for this template
+    /link rel='stylesheet' href='/login.css'
+
+  body
+    .container
+      .navbar.navbar-default role='navigation'
+        .navbar-header
+          button.navbar-toggle@button data-toggle='collapse' data-target='.navbar-collapse'
+
+script src='/vendor/jquery-1.9.1.min.js'
+script src='/vendor/bootstrap/js/bootstrap.min.js'
