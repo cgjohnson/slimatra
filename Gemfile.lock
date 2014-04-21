@@ -38,4 +38,4 @@ PLATFORMS
 DEPENDENCIES
   rerun
   sinatra
-  slim (>= 9000)
+  slim
